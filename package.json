@@ -1,0 +1,28 @@
+{
+  "name": "frontend-mockup",
+  "version": "0.1.0",
+  "private": true,
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.36.0",
+    "react-scripts": "0.8.1"
+  },
+  "dependencies": {
+    "bin-pack": "^1.0.2",
+    "jsxstyle": "^1.0.2",
+    "lodash": "^4.17.2",
+    "masonry": "^0.0.2",
+    "masonry-layout": "^4.1.1",
+    "normalize.css": "^5.0.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

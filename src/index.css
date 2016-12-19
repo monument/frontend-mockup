@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Bosnia Thin;
+  src:
+    './fonts/bosnia-thin-normal.eot',
+    './fonts/bosnia-thin-normal.ttf',
+    './fonts/bosnia-thin-normal.woff';
+  font-variant: normal;
+  font-weight: normal;
+  font-style: normal;
+}
+
+abbr {
+  text-decoration: none !important;
+}
+
+address {
+  font-style: normal !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 50em) {
+  .container {
+      grid-template: "logo logo" "who-we-are where-we-work" !important;
+      grid-template-rows: 300px 1fr !important;
+      grid-template-columns: 50vw 50vw !important;
+  }
+  .who-we-are, .where-we-work {
+    /* margin: 2em; */
+  }
+}
